@@ -4,7 +4,7 @@ from pathlib import Path
 import pandas as pd
 import streamlit as st
 
-MODEL_PATH = Path(__file__).parent / "model.pkl"  # change to your pkl filename
+MODEL_PATH = Path(__file__).parent / "xgb_model_advertisement.pkl.pkl"  # change to your pkl filename
 
 st.set_page_config(page_title="Sales Predictor", page_icon="📈")
 
